@@ -6,7 +6,7 @@ import 'package:advanced_app/presentation/resources/strings_manager.dart';
 import 'package:advanced_app/presentation/splash/splash_view.dart';
 import 'package:flutter/material.dart';
 
-import '../onboarding/onboarding_view.dart';
+import '../onboarding/view/onboarding_view.dart';
 import '../store_details/store_details_view.dart';
 
 class Routes {
