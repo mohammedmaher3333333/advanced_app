@@ -13,43 +13,34 @@ ThemeData getApplicationTheme() {
     disabledColor: ColorManager.grey1,
     splashColor: ColorManager.lightPrimary,
     // ripple effect color
-    // card view theme
+    // cardview theme
     cardTheme: CardTheme(
         color: ColorManager.white,
         shadowColor: ColorManager.grey,
         elevation: AppSize.s4),
     // app bar theme
     appBarTheme: AppBarTheme(
-      centerTitle: true,
-      color: ColorManager.primary,
-      elevation: AppSize.s4,
-      shadowColor: ColorManager.lightPrimary,
-      titleTextStyle: getRegularStyle(
-        fontSize: FontSize.s16,
-        color: ColorManager.white,
-      ),
-    ),
+        centerTitle: true,
+        color: ColorManager.primary,
+        elevation: AppSize.s4,
+        shadowColor: ColorManager.lightPrimary,
+        titleTextStyle:
+            getRegularStyle(fontSize: FontSize.s16, color: ColorManager.white)),
     // button theme
     buttonTheme: ButtonThemeData(
-      shape: const StadiumBorder(),
-      disabledColor: ColorManager.grey1,
-      buttonColor: ColorManager.primary,
-      splashColor: ColorManager.lightPrimary,
-    ),
+        shape: const StadiumBorder(),
+        disabledColor: ColorManager.grey1,
+        buttonColor: ColorManager.primary,
+        splashColor: ColorManager.lightPrimary),
 
     // elevated button them
     elevatedButtonTheme: ElevatedButtonThemeData(
-      style: ElevatedButton.styleFrom(
-        textStyle: getRegularStyle(
-          color: ColorManager.white,
-          fontSize: FontSize.s17,
-        ),
-        backgroundColor: ColorManager.primary,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(AppSize.s12),
-        ),
-      ),
-    ),
+        style: ElevatedButton.styleFrom(
+            textStyle: getRegularStyle(
+                color: ColorManager.white, fontSize: FontSize.s17),
+            backgroundColor: ColorManager.primary,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(AppSize.s12)))),
 
     textTheme: TextTheme(
         displayLarge: getSemiBoldStyle(
@@ -64,8 +55,7 @@ ThemeData getApplicationTheme() {
             getRegularStyle(color: ColorManager.white, fontSize: FontSize.s16),
         bodyLarge: getRegularStyle(color: ColorManager.grey1),
         bodySmall: getRegularStyle(color: ColorManager.grey),
-        bodyMedium:
-            getRegularStyle(color: ColorManager.grey2, fontSize: FontSize.s12),
+        bodyMedium: getRegularStyle(color: ColorManager.grey2, fontSize: FontSize.s12),
         labelSmall:
             getBoldStyle(color: ColorManager.primary, fontSize: FontSize.s12)),
 
